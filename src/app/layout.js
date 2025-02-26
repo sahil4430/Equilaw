@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { BackgroundBoxesDemo } from "@/app/Overbg"
+import { ThemeProvider } from "@/components/ui/theme-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +24,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider >
+        {children}</ThemeProvider><BackgroundBoxesDemo>
+         
+      </BackgroundBoxesDemo>
+       
+       
       </body>
     </html>
   );
