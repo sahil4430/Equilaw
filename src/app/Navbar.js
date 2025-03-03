@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo: Icon and Text */}
         <div className="flex items-center">
-          <img src="./Group 1.svg" alt="Logo" className="h-12 w-48 ml-2 " />
+          <img src="./Group 1.svg" alt="Logo" className="h-12 w-48" />
           {/* <span className="ml-2 text-xl font-bold">Equilaw</span> */}
         </div>
 
