@@ -21,7 +21,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link href="/prodect" className="text-lg font-medium hover:text-gray-300">
-            Prodect
+            Product
           </Link>
           <Link
             href="/getstart"
