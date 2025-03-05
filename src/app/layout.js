@@ -24,9 +24,20 @@ export default function RootLayout( {children} ) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider >
-        <Navbar/>
-        {children}</ThemeProvider>
+        <ThemeProvider>
+          {/* Full viewport container */}
+          <div className="fixed inset-0 overflow-hidden">
+            {/* Navbar */}
+            <div className="absolute top-0 left-0 right-0 z-50">
+              <Navbar />
+            </div>
+            
+            {/* Main content area - full screen, no scrolling */}
+            <main className="absolute inset-0 top-16 overflow-hidden">
+              {children}
+            </main>
+          </div>
+        </ThemeProvider>
        
        
       </body>
