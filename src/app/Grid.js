@@ -1,9 +1,9 @@
 export default function CustomGrid() {
     return (
-      <div className="grid grid-cols-4 gap-4 p-6 bg-transparent relative z-10 fixed top-0 right-0 left-0">
+      <div className="grid grid-cols-4 gap-4 p-6 bg-white relative z-10 fixed bottom-40 right-0 left-0">
         {/* First Column (1 row) */}
-        <div className="bg-black rounded-2xl p-6 col-span-1 row-span-1">
-          <h2 className="text-lg font-bold">Modall Explained</h2>
+        <div className="bg-black rounded-2xl h-86 p-6 col-span-1 row-span-1">
+          <h2 className="text-4xl color-white font-bold">Modal <br/>Explained</h2>
         </div>
   
         {/* Second Column (4 rows) */}

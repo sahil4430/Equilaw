@@ -15,7 +15,7 @@ export function BackgroundBoxesDemo() {
         <div className="absolute inset-0 z-10">
         <SpotlightPreview />
       </div>
-
+      <h1 className="color-white"> hello</h1>
         
       <div 
         className="absolute inset-0 w-full h-full bg-black z-20 
