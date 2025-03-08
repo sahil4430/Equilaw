@@ -1,11 +1,9 @@
 import React from "react";
 import { Spotlight } from "../components/ui/spotlight";
-import CustomGrid from "./Grid";
-import Navbar from "./Navbar";
 
 export function SpotlightPreview() {
   return (
-    (<>
+    (
     <div
       className="h-[40rem] w-full flex rounded-md bottom-0 md:items-center md:justify-center bg-black/[0.01] antialiased bg-grid-white/[0.1] relative overflow-hidden">
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="white" />
@@ -22,7 +20,7 @@ export function SpotlightPreview() {
         </p>
       </div> 
     </div>
-    <CustomGrid/>
-    </>)
+    
+    )
   );
 }
