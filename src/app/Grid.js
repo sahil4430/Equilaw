@@ -32,7 +32,6 @@ export default function CustomGrid() {
             <NavigateNextIcon className="ml-20 h-12 w-max"/>
             </div>
         </div>
-    
   
         {/* Fourth Column (1 row) */}
         <div className="bg-black rounded-2xl p-4 md:p-6 col-span-1 row-span-1 flex flex-col items-center w-full max-w-full overflow-hidden">
